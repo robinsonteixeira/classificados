@@ -32,16 +32,16 @@
 		// ----------- Fim paginação -----------------------
 
 ?>
-	<div class="container-fluid">
-		<div class="jumbotron">
-			<h2>Nós temos hoje <?php echo $total_anuncios ;?> anúncios.</h2>
-			<h3><?php echo $total_usuarios ;?> usuários cadastrados.</h3>
-		</div>
-		<div class="row">
-			<div class="col-sm-3">
-				<h4>Pesquisa avançada</h4>
-				<form method="GET">
-					<div class="form-group">
+<div class="container-fluid">
+ 	 <div class="jumbotron">
+   		 <h2>Nós temos hoje <?php echo $total_anuncios ;?> anúncios.</h2>
+  		  <h3><?php echo $total_usuarios ;?> usuários cadastrados.</h3>
+	</div>
+	<div class="row">
+ 		  <div class="col-sm-3">
+			<h4>Pesquisa avançada</h4>
+			<form method="GET">
+				<div class="form-group">
 						<label id="categoria">Categoria:</label>
 						<select id="categoria" class="form-control" name="filtros[categoria]">
 							<option></option>
